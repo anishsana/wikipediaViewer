@@ -1,0 +1,38 @@
+html,
+body {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.jumbotron {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #C0C0C0;
+}
+
+#heading {
+  padding: 2.5%;
+}
+
+#display {
+  padding: 2.5%;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+#result-button {
+  width: 50%;
+}
+
+#title,
+#text {
+  white-space: normal;
+}
